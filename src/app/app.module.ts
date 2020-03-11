@@ -9,7 +9,8 @@ import { HelloComponent } from './hello.component';
   imports:      [ 
     BrowserModule, 
     FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent,
+   HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
