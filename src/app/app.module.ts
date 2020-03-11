@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { TableComponent } from './components/table/table.component';
+import { OtpexapleComponent } from './components/otpexaple/otpexaple.component';
 
 @NgModule({
   imports:      [ 
@@ -11,7 +12,8 @@ import { TableComponent } from './components/table/table.component';
     FormsModule ],
   declarations: [ AppComponent,
    HelloComponent,
-   TableComponent ],
+   TableComponent,
+   OtpexapleComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
